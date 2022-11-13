@@ -1,56 +1,18 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 
 /*my css*/
 *, :after, :before {
     box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+img{
+    max-width: 100%;
 }
 
 body{
@@ -117,4 +79,182 @@ body{
 }
 
 /*section2 setting*/
+.section2,.section3,.section4,.section5,.section6,.section7{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #EFEFEF;
+}
+.circle1{
+    top: 20rem;
+    left: 2.5rem;
+}
+.circle2{
+    top: 10rem;
+    right:2.5rem;
+}
+.circle3{
+    top: 40rem;
+    right: 2rem;
+}
+.cyct{
+    font-size: 1.5rem;
+    color: #EFEFEF;
+    line-height: 3rem;
+    font-weight: 700;
+}
+.cyct1{
+    text-align: center;
+    margin-top: -5rem;
+    font-size: 2rem;
+}
+.cyct2{
+    text-align: end;
+    margin-top: -22rem;
+    margin-left: 10rem;
+}
+.cyct3{
+    text-align: end;
+    margin-top: -2rem;
+    margin-left: 10rem;
+}
+
+/*section3 setting*/
+.section3{
+    margin-top: 70rem;
+}
+.timeline{
+    justify-content: space-between;
+}
+.section3img{
+    width: 100vw;
+}
+.yellowtext{
+    color: #D5F70A;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 128px;
+}
+.date{
+    color: rgba(255, 255, 255, 0.4);;
+    font-weight: 700;
+    font-size: 57.3333px;
+    line-height: 150%;
+}
+.contant{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #EFEFEF;
+}
+
+/*section4 setting*/
+.week1-3{
+    margin-top: 152px;
+}
+.week1{
+    margin-left: 4rem;
+}
+.week-img{
+    max-width: 100%;
+}
+.week-title{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 128px;
+    color: #EFEFEF;
+}
+.tag{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+.week-subtitle,.week-contant{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    letter-spacing: -0.011em;
+    color: #EFEFEF;
+    margin-bottom: 1rem;
+
+}
+.week-contant{
+    margin-bottom: 4rem;
+    font-size: 1rem;
+}
+.weekbutton{
+    background-color: #D5F70A;
+    border-radius: 8px;
+    display: inline-block;
+
+}
+.weekbutton a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    color: #1C1C1C;
+    text-align: center;
+    padding: 0rem 1rem;
+
+    
+}
+
+/*section5 setting*/
+.section5{
+    margin-top: 330px;
+    margin-bottom: 205px;
+}
+
+.section5 li{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: -0.011em;
+    color: #EFEFEF;
+}
+
+/*section6 setting*/
+.section6 ul{
+    flex-direction: column;
+}
+.sa{
+    justify-content: space-around;
+
+}
+
+/*section7 setting*/
+.section7{
+    margin-top: 65px;
+    margin-bottom: 105px;
+}
+.box{
+    width: 1170px;
+    height: 879px;
+    background-color: #6029F5;
+    border-radius: 87px;
+    padding: 90px 147px;
+
+}
+.box2{
+     width: 10rem;
+     height: 10rem;
+     background-color: #fff;
+     border-radius: 8px;
+     padding: 1rem;
+}
+.section7 ul{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.section7 li{
+    width: 30%;
+    padding: 80px 45px;
+}
+
 
