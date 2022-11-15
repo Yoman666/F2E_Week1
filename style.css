@@ -16,7 +16,7 @@ img{
 }
 
 body{
-    background-color: #454545;
+    background-color: #1C1C1C;
     font-size: 20px;
     font-family: 'Inter';
 }
@@ -82,6 +82,9 @@ body{
 .section2,.section3,.section4,.section5,.section6,.section7{
     max-width: 1140px;
     margin: 0 auto;
+}
+.section2-t{
+    margin-top: 134px;
 }
 h2{
     text-align: center;
@@ -258,3 +261,9 @@ h2{
 }
 
 
+.timeline-content-left[data-v-c671883e] {
+    margin-bottom: 30px;
+    position: relative;
+    left: 24px;
+    font-size: 20px;
+}
